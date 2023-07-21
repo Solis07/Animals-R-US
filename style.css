@@ -1,0 +1,28 @@
+:root {
+    --background: #d3d3d3;
+    --header: #14213D;
+    --paragraph: #767676;
+    --accent: #FCA311;
+    --border: #000;
+  }
+
+
+*{
+    background-color: var(--background);
+    font-family: monospace;
+}
+
+h1, h2, h3{
+color: var(--header);
+}
+
+p {
+color: var(--paragraph)
+}
+
+a:hover {
+color: var(--accent);
+transition:.2s;
+cursor: pointer;
+}
+

@@ -1,6 +1,6 @@
 window.onload = () => {
     setTimeout(function() {
-        document.location.href = "#";
+        document.location.href = "../index.html";
     }, 3000);
 }
 

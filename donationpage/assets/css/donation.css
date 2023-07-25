@@ -1,0 +1,129 @@
+:root {
+    --background: #D3D3D3;
+    --header: #14213D;
+    --paragraph: #767676;
+    --accent: #FCA311;
+    --border: #000;
+  }
+
+* {
+    background-color: var(--background);
+    font-family: monospace;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3 {
+color: var(--header);
+}
+
+h2, p {
+  background-color:#FCA311;
+}
+
+p {
+  color: var(--paragraph);
+  font-size: 16px;
+}
+
+.header {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #14213D;
+  color: #ffffff;
+}
+
+.header h1 {
+  display: inline-block;
+  color:#FCA311;
+  background-color:#14213D;
+  font-family: 'Schoolbell', cursive;
+}
+
+.header div {
+  background-color:#14213D;
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.header div ul li {
+  background-color:#14213D;
+  list-style-type: none;
+}
+
+.header div ul li a{
+  background-color:#14213D;
+  display: inline-block;
+}
+
+a {
+  font-size: 20px;
+  color: #FCA311;
+  text-decoration:none;
+}
+
+a:hover {
+  color:aqua;
+  transition:.2s;
+  cursor: pointer;
+  }
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+.content {
+  width: 100%;
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pencils, .pens, .markers, .notebooks, .looseleaf, .backpacks {
+  border: solid;
+  border-color: black;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #FCA311;
+  color: #ffffff;
+}
+
+.pencils img, .pens img, .markers img, .notebooks img, .looseleaf img, .backpacks img {
+  border: solid;
+  border-color: black;
+  border-radius: 8px;
+  max-height: 200px;
+}
+
+.pencils h2, .pens h2, .markers h2, .notebooks h2, .looseleaf h2, .backpacks h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.pencil-button, .pen-button, .marker-button, .notebook-button, .looseleaf-button, .backpack-button{
+  top:50%;
+  background-color:#0a0a23;
+  color: #fff;
+  border:none; 
+  border-radius:10px; 
+  padding:15px;
+  min-height:30px; 
+  min-width: 120px;
+}

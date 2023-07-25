@@ -226,3 +226,16 @@ a:hover {
     overflow-wrap: break-word;
     margin-right: 20px;
   }
+
+*{
+    background-color: var(--background);
+    font-family: monospace;
+}
+
+h1, h2, h3{
+color: var(--header);
+}
+
+p {
+color: var(--paragraph)
+}

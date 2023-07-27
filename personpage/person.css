@@ -52,63 +52,33 @@ header {
   color: var(--header);
 }
 
-#donateForm {
-  background-color: var(--background);
-  margin: 100px auto;
-  padding: 40px;
-  width: 70%;
-  min-width: 300px;
-}
-
-h2 {
-  font-size: 35px;
+.container{
   font-family: 'Schoolbell', cursive;
-  border-style: groove;
-  border-radius: 4px;
-  background-color: var(--header);
-  color: var(--accent);
 }
-
-.tab{
-  font-size: 35px;
+input[type=text], select {
   font-family: 'Schoolbell', cursive;
-  border-style: groove;
-  border-radius: 4px;
-  background-color: var(--header);
-  color: var(--accent);
-}
-
-input {
-  padding: 10px;
   width: 100%;
-  font-size: 17px;
-  font-family: Raleway;
-  border: 1px solid #aaaaaa;
-}
-
-input.invalid {
-  background-color: #ffdddd;
-}
-
-.tab {
-  display: none;
-}
-
-.step {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: var(--header);
-  border: none;
-  border-radius: 20%;
+  padding: 12px 20px;
+  margin: 8px 0;
   display: inline-block;
-  opacity: 0.5;
+  border: 1px solid var(--accent);
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
-.step.active {
-  opacity: 1;
+input[type=submit] {
+  font-family: 'Schoolbell', cursive;
+  width: 100%;
+  background-color: var(--header);
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
-.step.finish {
+input[type=submit]:hover {
   background-color: var(--accent);
 }
+

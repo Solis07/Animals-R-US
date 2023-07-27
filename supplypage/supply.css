@@ -48,10 +48,11 @@ header {
   margin-top: 60px;
 }
 
-.products-grid {
+.contact-grid {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  width: 70vw;
+  width: 85vw;
+  margin: 0 auto; 
 }
 
 .contact-card {
@@ -63,22 +64,34 @@ header {
   display: flex;
   flex-direction: column;
   margin: 10px;
+  background-color: white;
 }
 
 .name {
   height: 40px;
   margin-bottom: 5px; 
+  background-color: white;
 }
 
 #name {
   color: black; 
   font-size: 2rem;
+  background-color: white;
 }
 
+.contact-info{
+  background-color: white;
+}
+
+.contact-info p {
+  background-color: white;
+}
 #telephone {
   color: black;
+  background-color: white;
 }
 
 #email {
   color: black; 
+  background-color: white;
 }

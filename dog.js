@@ -1,7 +1,7 @@
 const dogApiKey = live_nvoj4nry8QrbelXIrr21QYfM6T283RAiapTAPzqH28ZM73D2Nu3J2llBSfdPeEhU
 const dogUrl = `https://api.thedogapi.com/v1`;
 
-let currentImageVote
+let currentImageVote;
 
 
 function History() {
@@ -10,7 +10,7 @@ function History() {
   
   const url = `${dogUrl}votes?limit=`;
 
-  fetch(dogUrl) {
+  fetch(url) {
  
   }
 }

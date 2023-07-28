@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+  font-size: 20px;
+  color: white;
+  text-decoration:none;
+  padding: 10px;
+}
+
+a:hover {
+  color: purple;
+}
+
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.loveBtn, .dontLoveBtn {
+  padding: 10px 10px;
+  border-radius: 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color:cadetblue;
+}
+
+.loveBtn:hover {
+  background-color:green;
+  cursor: pointer;
+  border-radius: 8px;
+  border: solid black;
+  }
+
+.dontLoveBtn:hover {
+  background-color: red;
+  cursor: pointer;
+  border-radius: 8px;
+  border: solid black;
+}
+
+.pageContent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pageContent ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 5px 10px 0 10px;
+  border-radius: 8px;
+}
+
+.buttons {
+  margin: 10px 0 0 0;
+}

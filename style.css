@@ -1,9 +1,9 @@
 :root {
-    --background: #d3d3d3;
-    --header: #14213D;
-    --paragraph: #616161;
-    --accent: #FCA311;
-    --border: #181717;
+    --background: #dadee0;
+    --header: #5E503F;
+    --paragraph: #ae906d;
+    --accent: #EAE0D5;
+    --border: #181410;
 }
 
 .navcolor {
@@ -163,17 +163,17 @@ a:hover {
     margin-bottom: 20px;
 }
 .buttonbase1 {
-    background-color: #FCA311 !important;
+    background-color: #5E503F !important;
     border: none;
     width: 400px;
     border-radius: 10px;
-    color: white;
+    color: #EAE0D5;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 10px 0 0 0;
     transition-duration: 0.4s;
     cursor: pointer;
     position:relative;
@@ -181,28 +181,28 @@ a:hover {
   }
   
   .button1 {
-    background-color: white; 
-    color: black; 
-    border: 2px solid #FCA311;
+    background-color: #EAE0D5; 
+    color: #EAE0D5; 
+    border: 2px solid #5E503F;
   }
   
   .button1:hover {
-    background-color: #c37f12 !important;
-    border: 2px solid #c37f12;
+    background-color: #3d3429 !important;
+    border: 2px solid #3d3429;
   }
   
   .buttonbase2 {
-    background-color: #1c2d51 !important;
+    background-color: #ae906d !important;
     border: none;
     width: 400px;
     border-radius: 10px;
-    color: #d3d3d3;
+    color: #EAE0D5;
     padding: 16px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 2px;
+    margin: 10px 0 20px 0;
     transition-duration: 0.4s;
     cursor: pointer;
     position:relative;
@@ -210,15 +210,15 @@ a:hover {
   }
   
   .button2 {
-    background-color: #1c2d51; 
+    background-color: #ae906d; 
     color: #d3d3d3; 
-    border: 2px solid #1c2d51;
+    border: 2px solid #ae906d;
   }
   
   .button2:hover {
-    background-color: #16233f !important;
+    background-color: #877055 !important;
     color: #d3d3d3;
-    border: 2px solid #16233f;
+    border: 2px solid #877055;
   }
   
   h3 + p {

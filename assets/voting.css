@@ -1,21 +1,31 @@
+:root {
+  --background: #dadee0;
+  --header: #5E503F;
+  --paragraph: #ae906d;
+  --accent: #EAE0D5;
+  --border: #181410;
+}
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: monospace;
+    background-color: var(--background)s;
 }
 
 a {
   font-size: 20px;
-  color: white;
+  color: var(--paragraph);
   text-decoration:none;
   padding: 10px;
 }
 
 a:hover {
-  color: purple;
+  color: var(--accent);
 }
 
-section {
+ .content-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,24 +38,25 @@ section {
   text-align: center;
   align-items: center;
   justify-content: center;
-  background-color:cadetblue;
+  background-color:var(--paragraph);
 }
 
 .loveBtn:hover {
-  background-color:green;
+  background-color: #468f50;
   cursor: pointer;
   border-radius: 8px;
-  border: solid black;
+  border: solid --border;
   }
 
 .dontLoveBtn:hover {
-  background-color: red;
+  background-color: rgb(168, 44, 44);
   cursor: pointer;
   border-radius: 8px;
-  border: solid black;
+  border: solid rgb(42, 36, 36);
 }
 
-.pageContent {
+.pageContent,
+.voting-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -61,11 +72,11 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: var(--border);
   padding: 5px 10px 0 10px;
   border-radius: 8px;
 }
 
-.buttons {
+.voting-section {
   margin: 10px 0 0 0;
 }

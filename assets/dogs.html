@@ -20,12 +20,26 @@
                 </li>
             </ul>
         </div>
-        <div class="buttons">
-            <button id="loveBtn" class="loveBtn">👍 LOVE IT</button></a>
-            <button id="dontLoveBtn" class="dontLoveBtn">👎 DON'T LOVE IT</button></a> 
-        </div>         
     </section>
 
+    <div class="content-wrapper">
+
+    <div id="voting-section class=voting-section">
+        <button onclick="vote(1)" id="loveBtn" class="loveBtn">👍 LOVE IT</button>
+        <button onclick="vote(-1)" id="dontLoveBtn" class="dontLoveBtn">👎 DON'T LOVE IT</button>
+    </div>
+    
+    <div>
+        <img id="voting-image">
+    </div>
+
+    <div>
+        <button id="favoritebtn" class="favoritebtn">Favorite</button>
+    </div>
+
+  </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="./dog.js"></script>
 </body>
 </html>

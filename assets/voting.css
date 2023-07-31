@@ -25,7 +25,7 @@ a:hover {
   color: var(--accent);
 }
 
-section {
+ .content-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,7 +55,8 @@ section {
   border: solid rgb(42, 36, 36);
 }
 
-.pageContent {
+.pageContent,
+.voting-section {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -76,6 +77,6 @@ section {
   border-radius: 8px;
 }
 
-.buttons {
+.voting-section {
   margin: 10px 0 0 0;
 }

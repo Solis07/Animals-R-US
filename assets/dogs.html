@@ -9,7 +9,7 @@
 </head>
 <body>
 
-    <section id="PageContent" class="pageContent">
+    <nav id="PageContent" class="pageContent">
         <div class="content">
             <ul>
                 <li>
@@ -20,21 +20,20 @@
                 </li>
             </ul>
         </div>
-    </section>
+    </nav>
 
     <div class="content-wrapper">
 
-    <div id="voting-section class=voting-section">
-        <button onclick="vote(1)" id="loveBtn" class="loveBtn">👍 LOVE IT</button>
-        <button onclick="vote(-1)" id="dontLoveBtn" class="dontLoveBtn">👎 DON'T LOVE IT</button>
-    </div>
-    
-    <div>
-        <img id="voting-image">
-    </div>
-
-    <div>
-        <button id="favoritebtn" class="favoritebtn">Favorite</button>
+        <div id="voting-section class=voting-section">
+            <button onclick="vote(1)" id="loveBtn" class="loveBtn">👍 LOVE IT</button>
+            <button onclick="vote(-1)" id="dontLoveBtn" class="dontLoveBtn">👎 DON'T LOVE IT</button>
+        </div>
+        <div class="voting-container">
+            <div class="voting-pic">
+                <img id="voting-image">
+            </div>
+            <button id="favoritebtn" class="favoritebtn">Favorite</button>
+        </div>
     </div>
 
   </div>

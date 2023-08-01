@@ -83,8 +83,7 @@ h1 {
     color: var(--header);
     font-family: 'Schoolbell', cursive;
     margin-left: 40px;
-    font-size: 300%;
-    padding-top: 10px;
+    font-size: 250%;
     font-weight: bolder;
 }
 
@@ -241,4 +240,8 @@ color: var(--header);
 
 p {
 color: var(--paragraph)
+}
+
+.hoverlink:hover {
+    color:rgb(117, 117, 117) !important;
 }

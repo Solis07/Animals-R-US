@@ -11,44 +11,42 @@
     padding: 0;
     margin: 0;
     font-family: monospace;
-    background-color: var(--background)s;
+    background-color: var(--background) !important;
 }
 
-a {
-  font-size: 20px;
-  color: var(--paragraph);
-  text-decoration:none;
-  padding: 50px;
+/* Header */
+
+.navcolor {
+    background-color: var(--border) !important;
+    color: var(--accent);
 }
 
-a:hover {
-  color: var(--accent);
+.navtitle {
+    font-family: 'Schoolbell', cursive !important;
+    font-size: 250%;
+    font-weight: bolder;
+    color: var(--accent) !important;
 }
 
-.pageContent {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 10px 0 10px 0;
+.navbutton {
+    color: var(--accent) !important;
+    font-size: 150%;
+    padding-right: 40px !important;
+    font-family: monospace;
 }
 
-.content {
-  width: 410px;
-  text-align: center;
-  background-color: var(--border);
-  padding: 5px 10px 0 10px;
-  border-radius: 8px;
+.navbutton:hover {
+    color: var(--background) !important;
+    transition: .2s;
 }
 
-.pageContent ul li {
-  list-style-type: none;
-  display: inline-block;
-}
+/* Content */
 
  .content-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 100px;
 }
 
 .voting-container {
@@ -56,6 +54,8 @@ a:hover {
   display: flex;
   flex-direction: column;
 }
+
+/* Like and Dislike Buttons */
 
 .voting-buttons {
   display: flex;
@@ -69,23 +69,25 @@ a:hover {
   padding: 10px 10px;
   margin: 10px 10px 10px 0;
   border-radius: 8px;
-  background-color:var(--paragraph);
+  background-color:var(--paragraph) !important;
   width: 50%;
 }
 
 .loveBtn:hover {
-  background-color: #468f50;
+  background-color: #468f50 !important;
   cursor: pointer;
   border-radius: 8px;
   border: solid --border;
 }
 
 .dontLoveBtn:hover {
-  background-color: rgb(168, 44, 44);
+  background-color: rgb(168, 44, 44) !important;
   cursor: pointer;
   border-radius: 8px;
-  border: solid rgb(42, 36, 36);
+  border: solid rgb(42, 36, 36) !important;
 }
+
+/* Picture */
 
 .voting-pic {
   height: 250px;
@@ -99,6 +101,8 @@ a:hover {
   height: 100%;
 }
 
+/* Favorite Button */
+
 .favorite-button {
   display: flex;
   justify-content: center;
@@ -109,11 +113,11 @@ a:hover {
   padding: 10px 10px;
   margin: 10px 10px 0 0;
   border-radius: 8px;
-  background-color:var(--paragraph);
+  background-color:var(--paragraph) !important;
   width: 100%;
 }
 
 .favoriteBtn:hover {
-  color: black;
-  background-color: pink;
+  color: black !important;
+  background-color: pink !important;
 }

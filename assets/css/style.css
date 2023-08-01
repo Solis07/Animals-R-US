@@ -6,6 +6,8 @@
     --border: #181410;
 }
 
+/* Header */
+
 .navcolor {
     background-color: var(--border) !important;
     color: var(--accent);
@@ -14,7 +16,6 @@
 * {
     background-color: var(--background) !important;
     font-family: monospace;
-
 }
 
 .navtitle {
@@ -24,17 +25,19 @@
     color: var(--accent) !important;
 }
 
-.homebutton {
+.navbutton {
     color: var(--accent) !important;
     font-size: 150%;
     padding-right: 40px !important;
     font-family: monospace;
 }
 
-.homebutton:hover {
+.navbutton:hover {
     color: var(--background) !important;
     transition: .2s;
 }
+
+/* Background */
 
 .bigbackground {
     height: 300px;

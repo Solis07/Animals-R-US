@@ -8,7 +8,7 @@ function History() {
   document.getElementById();
   document.getElementById();
   
-  const url = `${ catUrl}votes?limit=`;
+  const url = `${catUrl}votes?limit=`;
 
   fetch(url) {
  

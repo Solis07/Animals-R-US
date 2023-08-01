@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" type="text/css" href="./style.css" />
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Schoolbell&display=swap');
@@ -14,16 +14,25 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top ">
-    <div class="container-fluid navcolor">
-      <div class="navbar-header navcolor">
-        <header class="navbar-brand navtitle navcolor">🐾Animals-R-Us</header>
+
+  <nav class="navbar navcolor" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand navcolor">
+      <a class="navbar-item navcolor" href="https://bulma.io">
+        <h1 class="navcolor">Animals-R-US</h1>
+      </a>
+      </a>
+    </div>
+    <div class="navbar-end navcolor">
+      <div class="navbar-item navcolor">
+        <div class="buttons navcolor">
+          <a class="button is-primary navcolor hoverlink" href="./assets/cats.html">Cats</a>
+          <a class="button is-primary navcolor hoverlink" href="./assets/dogs.html">Dogs</a>
+        </div>
       </div>
-      <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a class="navcolor homebutton" href="./index.html">Home</a></li>
-      </ul>
+    </div>
     </div>
   </nav>
+
   <img class="bigbackground"></img>
   <h1 class="frontpageheader">Animals-R-Us</h1>
   <section class="schoolpic1container">
@@ -55,15 +64,16 @@
       <div class="card">
         <img class="imgschool" src="./mainpage-assets/dogsushi.jpg" alt="a dog with sushi in its mouth"></img>
         <h3>We got dogs!</h3>
-        <p>Don't be discouraged about our dog selection just because there is just one card about them! We have just as many dogs as we do cats with the same dislike/like function!</p>
+        <p>Don't be discouraged about our dog selection just because there is just one card about them! We have just as
+          many dogs as we do cats with the same dislike/like function!</p>
       </div>
     </div>
 
     <div class="column">
       <div class="card">
         <img class="imgschool" src="./mainpage-assets/catlick.jpg" alt="a cat biting a straw"></img>
-        <h3>We got no drama at all!</h3>
-        <p>With the lack of social interaction with other users, there is little drama! disclaimer: there is *little amounts of drama* because personal issues are not addressed.</p>
+        <h3>We got no drama!</h3>
+        <p>With the lack of social interaction with other users, there is little drama!</p>
       </div>
     </div>
     <br class="clear">

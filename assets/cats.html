@@ -1,44 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="./voting.css" />
-    <title>Love It or Not?</title>
-</head>
-<body>
-    <nav id="PageContent" class="pageContent">
+    <title>Cat Lovers</title>
+  </head>
+  <body>
+      <nav id="PageContent" class="pageContent">
         <div class="content">
-            <ul>
-                <li>
-                    <a href="">Vote</a>
-                </li>
-                <li>
-                    <a href="">Favorites</a>
-                </li>
-            </ul>
+          <ul>
+            <li>
+              <a href="/index.html">Home</a>
+            </li>
+            <li>
+              <a href="./favorites.html">Favorites</a>
+            </li>
+          </ul>
         </div>
-    </nav>
+      </nav>
 
-    <div class="content-wrapper">
-
-        <div id="voting-section class=voting-section">
-            <button onclick="vote(1)" id="loveBtn" class="loveBtn">👍 LOVE IT</button>
-            <button onclick="vote(-1)" id="dontLoveBtn" class="dontLoveBtn">👎 DON'T LOVE IT</button>
-        </div>
+      <div class="content-wrapper">
         <div class="voting-container">
-            <div class="voting-pic">
-                <img id="voting-image">
-            </div>
-            <button id="favoritebtn" class="favoritebtn">Favorite</button>
+          <div class="voting-buttons">
+            <button id="loveBtn" class="loveBtn">👍</button>
+            <button id="dontLoveBtn" class="dontLoveBtn">👎</button>
+          </div>
+          <div class="voting-pic">
+            <img id="voting-image" />
+          </div>
+          <div class="favorite-button">
+            <button id="favoriteBtn" class="favoriteBtn">&#128155;</button>
+          </div>
         </div>
-    </div>
-
-    </div>
-
+      </div>
 
     <script src="./cat.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-</body>
+  </body>
 </html>

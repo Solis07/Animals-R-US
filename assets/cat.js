@@ -1,11 +1,13 @@
 const catApiKey = 'live_MI5rOkbC3LSYXKNirvGsCCR4Fx6RpllLp6FRHY17sSzyUmipdKho6ua8JnkBYbDn'
 const catUrl = `https://api.thecatapi.com/v1`;
+var likeBtn = document.getElementById("loveBtn");
+var dislikeBtn = document.getElementById("dontLoveBtn");
 
 let currentImageVote;
 
 function ImageToVoteOn() {
 
-  const url = `${catUrl}/images/search`;
+  const url = `${catUrl}/images/search?limit=1`;
   
   fetch(url, {
     method:'GET',
@@ -25,4 +27,8 @@ function ImageToVoteOn() {
 
 ImageToVoteOn()
 
+function AddToFavorites() {}
+
+likeBtn.addEventListener("click", ImageToVoteOn);
+dislikeBtn.addEventListener("click", ImageToVoteOn);
 

@@ -19,7 +19,6 @@ function ImageToVoteOn() {
     })
     .then((data) => {
       currentImageVote = data[0];
-      console.log(data)
       document.getElementById("voting-image").src= currentImageVote.url;
     });
 }

@@ -4,6 +4,8 @@ const dogUrl = `https://api.thedogapi.com/v1`;
 let currentImageVote;
 
 
+
+
 function ImageToVoteOn() {
 
   const url = `${dogUrl}/images/search`;
@@ -27,3 +29,6 @@ function ImageToVoteOn() {
 
 ImageToVoteOn()
 
+function AddToFavorites() {
+  
+}
